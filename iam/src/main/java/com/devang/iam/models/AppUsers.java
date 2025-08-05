@@ -33,8 +33,8 @@ public class AppUsers {
         this.username = username;
     }
 
-    public void setPassword(String encryptedPswd) {
-        this.password = encryptedPswd;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getPassword(){
